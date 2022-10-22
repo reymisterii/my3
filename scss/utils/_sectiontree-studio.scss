@@ -1,0 +1,49 @@
+.title-next {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+
+.opportunities-card {
+    justify-content: space-between;
+}
+
+.opportunities-card__figure {
+    height: 294px;
+}
+
+.opportunities-card__image {}
+
+.opportunities-card__subtitle {
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+}
+
+.opportunities-card__subtitle--transparency {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.container--next-color {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    height: 708px;
+    background-color: var(--main-next-fon-color);
+}
