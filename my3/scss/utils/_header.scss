@@ -1,3 +1,12 @@
+.header--size {
+    // box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    // position: sticky;
+    top: -1px;
+    background-color: var(--white-color);
+    height: 80px;
+    width: 1600px;
+}
+
 .header--line {
     display: flex;
 }
@@ -9,11 +18,7 @@
 .nav {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 32px;
-    &:last-child {
-        margin-top: 0;
-    }
 }
 
 .nav__items {
@@ -50,8 +55,6 @@
 
 .nav__link--active {
     color: var(--btn-logo-fh-color);
-    position: relative;
-    top: 1px;
     &::after {
         content: "";
         width: 46px;

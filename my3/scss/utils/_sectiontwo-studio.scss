@@ -1,8 +1,4 @@
-.benefits {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
+.benefits {}
 
 .benefits__card {
     width: 270px;
@@ -12,11 +8,10 @@
 }
 
 .benefits--right {
-    flex-basis: calc((100% - 90px) / 4);
-    // margin-right: 30px;
-    // &:last-child {
-    //     margin-right: 0;
-    // }
+    margin-right: 30px;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .portfolio-cards {
@@ -54,6 +49,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+    max-width: 270px;
 }
 .card__figure {}
 

@@ -11,14 +11,11 @@
 }
 
 .opportunities-card {
-    // justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .opportunities-card__figure {
-    // height: 294px;
-    flex-basis: calc((100% - 60px) / 3);
+    height: 294px;
 }
 
 .opportunities-card__image {}
@@ -44,8 +41,9 @@
     color: var(--white-color);
 }
 
-.section--next-color {
+.container--next-color {
     padding-top: 94px;
     padding-bottom: 94px;
+    height: 708px;
     background-color: var(--main-next-fon-color);
 }
