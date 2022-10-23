@@ -1,15 +1,25 @@
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px ;
+.container__footer {
+    height: 252px;
     background-color: var(--main-fon-color);
 }
 
-.footer__items {
+.footer {
     display: flex;
 }
 
-.footer__item {
-    margin-right: 72px;
+.footer__items {
+    margin-right: 70px;
+    margin-top: 60px;
+
+    &:nth-child(2) {
+        margin-top: 75px;
+    }
+    &:nth-child(3) {
+        margin-top: 75px;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .footer__form {
@@ -29,6 +39,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
+    margin-bottom: 20px;
 }
 
 .footer__address {
@@ -71,7 +82,7 @@
 }
 
 .social {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .team-card__social--black-grey {
@@ -105,7 +116,7 @@
 
 .btn__footer {
     margin-left: 12px;
-    margin-top: 58px;
+    margin-top: 39px;
 }
 
 .btn__text {
@@ -121,6 +132,7 @@
 .btn__icon {
     fill: var(--white-color);
     position: relative;
-    left: 10px;
+    left: 5px;
+    top: 5px;
     cursor: pointer;
 }
