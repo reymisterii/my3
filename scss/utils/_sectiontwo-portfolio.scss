@@ -1,7 +1,10 @@
 .portfolio-cards {
-    display: flex;
-    flex-wrap: wrap;
     gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
 }
 
 .portfolio-card {
