@@ -5,8 +5,7 @@
     top: 0;
     left: 0;
     z-index: 3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -38,10 +37,11 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 6px;
     cursor: pointer;
+    background-color: var(--white-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus,
     &:hover {
         fill: var(--btn-logo-fh-color);
-        transition-duration: 250ms;
     }
 }
 
@@ -64,6 +64,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
         fill: var(--btn-logo-fh-color);
@@ -91,11 +92,11 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus,
     &:hover {
         border: 1px solid var(--btn-logo-fh-color);
-        fill: var(--btn-logo-fh-color);
-        transition-duration: 250ms;
+        fill: var(--btn-logo-fh-color); 
     }
 }
 
@@ -103,22 +104,23 @@
     position: relative;
     bottom: 28px;
     left: 15px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus,
     &:hover {
         border: 1px solid var(--btn-logo-fh-color);
         fill: var(--btn-logo-fh-color);
-        transition-duration: 250ms;
     }
 }
 
 .send-menu-send__textarea {
     height: 120px;
-    padding: 12px 0 0 42px;
+    padding: 12px 0 0 16px;
     font-family: inherit;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     cursor: pointer;
     resize: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus,
     &:hover {
         border: 1px solid var(--btn-logo-fh-color);
@@ -146,4 +148,27 @@
 .modal__icon-checkbox {
     position: relative;
     top: 12px;
+}
+
+.send-menu-check {
+    padding-left: 35px;
+}
+
+.send-menu-checkbox {
+    position: absolute;
+    -moz-animation: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.checkbox {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    background-image: url(../imeges/vector/svg/Vector.svg);
+    left: 52px;
+}
+
+.send-menu-checkbox:checked + .checkbox {
+    background-image: url(/imeges/vector/svg/iconcheck.svg);
 }

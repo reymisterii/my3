@@ -21,7 +21,11 @@
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.opportunities-card__image {}
+.opportunities-card__image {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
 
 .opportunities-card__subtitle {
     width: 370px;
@@ -30,7 +34,7 @@
     margin: 0 auto;
     position: relative;
     bottom: 70px;
-}
+    }
 
 .opportunities-card__subtitle--transparency {
     font-family: "Roboto";

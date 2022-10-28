@@ -59,20 +59,18 @@
 }
 
 .team-card__link {
-    max-width: 44px;
-    max-height: 44px;
+    width: 44px;
+    height: 44px;
     padding: 12px;
     border-radius: 50%;
     background-color: var(--white-color);
     color: var(--icon-color);
     fill: var(--icon-color);
     display: flex;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
         fill: var(--white-color);
         background-color: var(--btn-logo-fh-color);
-        transition-duration: 250ms;
     }
 }
 

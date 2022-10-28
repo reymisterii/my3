@@ -17,10 +17,10 @@
     border-radius: 4px;
     margin-right: 30px;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
         border: 1px solid var(--btn-logo-fh-color);
         fill: var(--btn-logo-fh-color);
-        transition-duration: 250ms;
     }
     &:last-child {
         margin-right: 0;

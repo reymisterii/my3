@@ -17,11 +17,10 @@
 .portfolio-card__img {
     display: block;
     text-decoration: none;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     height: 404px;
     width: 370px;
     // border: 1px solid var(--next-border-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
         box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
         1px 4px 6px rgb(0 0 0 / 16%);
@@ -31,8 +30,7 @@
 .box {
     position: relative;
     overflow: hidden;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover .overlay {
         transform: translatex(0);
     }
@@ -43,8 +41,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(33, 150, 243, 0.9);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(100%);
     transition: transform 250ms ease;
 }
