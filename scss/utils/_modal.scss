@@ -6,6 +6,7 @@
     left: 0;
     z-index: 3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .is-hidden {
@@ -170,5 +171,9 @@
 }
 
 .send-menu-checkbox:checked + .checkbox {
-    background-image: url(/imeges/vector/svg/iconcheck.svg);
+    background-image: url(../imeges/vector/svg/iconcheck.svg);
+}
+.send-menu-checkbox-link {
+    color: var(--btn-logo-fh-color);
+    text-decoration: underline ;
 }
