@@ -175,5 +175,7 @@
 }
 .send-menu-checkbox-link {
     color: var(--btn-logo-fh-color);
-    text-decoration: underline ;
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+    line-height: 0.805;
 }
