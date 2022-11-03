@@ -1,0 +1,76 @@
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    &__card {
+        width: 270px;
+        height: 120px;
+        background-color: var(--main-next-fon-color);
+        border-radius: 4px;
+    }
+}
+
+.benefits--right {
+    flex-basis: calc((100% - 90px) / 4);
+    // margin-right: 30px;
+    // &:last-child {
+    //     margin-right: 0;
+    // }
+}
+
+.benefits-card {
+    &__title {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--text-color);
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    &__subtitle {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}
+
+.benefits-card__figure {}
+
+.benefits-card__image {}
+
+.card__figure {}
+
+.card__image {}
+
+.card {
+    &__title {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--text-color);
+        margin-top: 30px;
+    }
+    &__subtitle {
+        width: 270px;
+        height: 75px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}

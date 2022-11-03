@@ -1,0 +1,158 @@
+.header {
+}
+
+.header--line {
+    display: flex;
+}
+
+.header--border {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nav {
+    @media (max-width:480px) {
+    visibility: hidden;
+    }
+    @media (min-width:481px) {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 32px;
+        
+            &:last-child {
+                margin-top: 0;
+            }
+        
+            &__items {
+                display: flex;
+                justify-content: center;
+            }
+        
+            &__item {
+                margin-right: 50px;
+                transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+                &:last-child {
+                    margin-right: 0;
+                }
+        
+                &:focus {
+                    color: var(--btn-logo-fh-color);
+                }
+            }
+        
+            &__link {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.02em;
+                color: var(--text-color);
+                cursor: pointer;
+                transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+                &:focus,
+                &:hover {
+                    color: var(--btn-logo-fh-color);
+                }
+            }
+        
+            &__link {}
+        
+            &__link--active {
+                color: var(--btn-logo-fh-color);
+                position: relative;
+                top: 1px;
+        
+                &::after {
+                    content: "";
+                    width: 46px;
+                    height: 4px;
+                    background-size: contain;
+                }
+        
+                &::after {
+                    margin-top: 28px;
+                    background-image: url(../imeges/line.png);
+                    display: block;
+                }
+            }
+        
+            &__link--active-next {
+                color: var(--btn-logo-fh-color);
+        
+                &::after {
+                    content: "";
+                    height: 4px;
+                    background-size: contain;
+                }
+        
+                &::after {
+                    margin-top: 28px;
+                    background-image: url(../imeges/line-next.png);
+                    display: block;
+                }
+            }
+    }
+   
+}
+
+.header__address {
+    @media (min-width:768px) {
+        margin-left: 84px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+    }
+    @media (min-width:1200px) {
+        margin-left: 290px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.address {
+    &__item {
+        margin-right: 30px;
+        display: block;
+         &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        color: var(--address-color);
+        fill: var(--address-color);
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.02em;
+        display: flex;
+        align-items: center;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover {
+            color: var(--btn-logo-fh-color);
+            fill: var(--btn-logo-fh-color);
+            transition-duration: 250ms;
+        }
+    }
+    &__link {
+            color: var(--address-color);
+            fill: var(--address-color);
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: 0.02em;
+            display: flex;
+            align-items: center;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            &:hover {
+                color: var(--btn-logo-fh-color);
+                fill: var(--btn-logo-fh-color);
+                transition-duration: 250ms;
+        }
+    }
+    &__icon {
+        margin-right: 10px;
+    }
+}

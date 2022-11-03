@@ -1,19 +1,18 @@
 @import './utils/normalize';
-@import './utils/normalize';
 @import './utils/variables';
-@import './utils/ramca';
-@import './utils/header';
-@import './utils/logo';
-@import './utils/btn';
-@import './utils/sectionone-studio';
-@import './utils/sectiontwo-studio';
-@import './utils/sectiontree-studio';
-@import './utils/sectionfour-studio';
-@import './utils/sectionfive-studio';
-@import './utils/sectionone-portfolio';
-@import './utils/sectiontwo-portfolio';
-@import './utils/footer';
-@import './utils/modal';
+@import './utils/frame';
+@import './components/header';
+@import './components/logo';
+@import './components/btn';
+@import './layout/studio/section-one-studio';
+@import './layout/studio/section-two-studio';
+@import './layout/studio/section-tree-studio';
+@import './layout/studio/section-four-studio';
+@import './layout/studio/section-five-studio';
+@import './layout/portfolio/section-one-portfolio';
+@import './layout/portfolio/section-two-portfolio';
+@import './components/footer';
+@import './components/modal';
 
 
 
