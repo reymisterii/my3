@@ -56,6 +56,9 @@
         bottom: 11px;
         background-color: var(--main-fon-color);
     }
+    &__input:invalid {
+        color: var(--white-color);
+    }
 }
 
 .address-retreat {

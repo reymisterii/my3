@@ -14,6 +14,9 @@
         // }
     }
     &__card--image {
+        display: block;
+        max-width: 100%;
+        height: auto;
         margin-bottom: 30px;
     }
     &__card-title {
